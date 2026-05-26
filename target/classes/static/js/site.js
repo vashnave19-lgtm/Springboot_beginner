@@ -1,7 +1,7 @@
 console.log("Hello world");
 var users=[
-    {name: "Alice","gender":"male","img":"img/john.png"},
-    {name: "Bob","gender":"female","img":"img/jane.png"}
+    {"name": "Alice","gender":"male","img":"img/john.png"},
+    {"name": "Bob","gender":"female","img":"img/jane.png"}
 ];
 var currentUser=0;
 function toggleCard(){
