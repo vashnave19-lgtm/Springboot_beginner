@@ -1,0 +1,15 @@
+.card{
+    border:1px solid black;
+    width:20%;
+    padding:20px;
+    /* margin-left:40px;
+    margin-top:20px; */
+}
+
+.card img{
+    width:100%;
+}
+
+.card-content{
+    padding:40px;  
+}
