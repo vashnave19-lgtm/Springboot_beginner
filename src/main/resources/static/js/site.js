@@ -12,6 +12,8 @@ function toggleCard(){
     document.getElementById("userImage").src=user.img;    
 }
 const button = document.getElementById("myButton");
-button.addEventListener("click", function() {
-    alert("Button clicked!");
-});
+if (button) {
+    button.addEventListener("click", function() {
+        alert("Button clicked!");
+    });
+}
