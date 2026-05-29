@@ -1,4 +1,5 @@
-package services;
+package com.laxmivashnavep.WebProject.services;
+
 import java.util.*;
 import com.laxmivashnavep.WebProject.model.*;
 
@@ -6,6 +7,7 @@ public class UserService {
     private List<User> allUsers;
     public UserService() {
         allUsers = new ArrayList<>();
+        allUsers.add(new User("laxmiVashnavep", "img/john.png", "female", 0));
     }
     public void addUser(String name, String gender, String image) {
          User newUser = new User(name,image,gender,allUsers.size());

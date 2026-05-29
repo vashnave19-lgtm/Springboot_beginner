@@ -1,4 +1,4 @@
-package model;
+package com.laxmivashnavep.WebProject.model;
 
 public class User {
     private String name;
